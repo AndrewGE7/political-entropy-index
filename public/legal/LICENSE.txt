@@ -1,0 +1,102 @@
+Age Old Research License 1.0
+Copyright (c) 2026 Andrew Eppler and Age Old LLC. All rights reserved.
+
+This is a source-available research license. It is NOT an OSI-approved
+open-source license. The Canonical Work may be read, run, cited, and
+extended through Adapter Manifests. It may not be modified, forked as an
+official product, or redistributed in altered form.
+
+0. Not legal advice
+   This document is the license that governs the files in this repository.
+   It is not a substitute for counsel. Trademark registration is a separate
+   filing with the USPTO (and other offices) and is not completed by this file.
+
+1. Definitions
+   "Licensor" means Andrew Eppler and Age Old LLC, including the Age Old
+   Research division.
+   "Canonical Work" means the book *The Thermodynamics of Political Entropy*,
+   the Political Entropy Index (PEI) formula and locked weights, the dashboard
+   and curriculum software in this repository, brand assets, and all associated
+   documentation, excluding Adapter Manifests created by You.
+   "Adapter Manifest" means a JSON or CSV file that conforms to
+   /public/adapters/schema.json and supplies overlay observations for PEI
+   dimensions without altering weights, phase bands, manuscript text, or UI.
+   "Research Use" means non-commercial study, teaching, citation, replication,
+   and local overlay of Adapter Manifests, including by universities, think
+   tanks, journalists, and public agencies acting in a research capacity.
+   "You" means the individual or institution exercising rights under this license.
+
+2. Grant — Research Use
+   Subject to this license, Licensor grants You a worldwide, royalty-free,
+   non-exclusive, non-transferable, revocable license to:
+   (a) run the unmodified Canonical Work;
+   (b) view, quote, and cite the Canonical Work with attribution;
+   (c) reproduce unmodified copies for Research Use;
+   (d) connect live or static datasets by writing Adapter Manifests and
+       overlaying them locally;
+   (e) publish research that *uses* PEI scores, provided You do not present a
+       modified index as PEI.
+
+3. Restrictions — no derivatives of the Canonical Work
+   You may not, without a separate written license from Licensor:
+   (a) modify, translate, or create derivative works of the Canonical Work
+       (including the book, formula, weights, phase bands, curriculum text,
+       and application source);
+   (b) distribute modified copies, forks, or "PEI-compatible" rebrands;
+   (c) remove copyright, trademark, or license notices;
+   (d) use the Canonical Work to train or fine-tune a competing index that
+       copies the locked six-dimension weights or manuscript;
+   (e) sublicense the Canonical Work.
+
+   Technical ability to fork a public GitHub repository does not grant
+   copyright permission. Unofficial forks are unlicensed.
+
+4. Adapter Exception (how the research tool grows)
+   You MAY create, share, and license Adapter Manifests under terms of Your
+   choosing. Adapter Manifests are Your work, not part of the Canonical Work.
+   Overlays MUST be labeled as local research overlays and MUST NOT be
+   described as the official PEI. Licensor may, at its sole discretion,
+   certify adapters or merge data partnerships into the Canonical Work.
+
+5. Contributions
+   By submitting a patch, issue, or adapter to Licensor, You assign copyright
+   in that submission to Age Old LLC, or if assignment is ineffective You
+   grant Licensor a perpetual, irrevocable, worldwide license to use it in
+   the Canonical Work. Only Licensor may merge changes to the Canonical Work.
+
+6. Trademarks
+   This license does not grant rights in the marks POLITICAL ENTROPY INDEX,
+   PEI, AGE OLD, AGE OLD RESEARCH, or THE THERMODYNAMICS OF POLITICAL ENTROPY.
+   See TRADEMARKS.md. Nominative fair use (citation) is unchanged.
+
+7. The book
+   The manuscript text is additionally licensed under Creative Commons
+   Attribution-NonCommercial-NoDerivatives 4.0 International
+   (CC BY-NC-ND 4.0): https://creativecommons.org/licenses/by-nc-nd/4.0/
+   Where CC BY-NC-ND and this license conflict, the more restrictive term
+   controls. The locked PEI formula is part of the Canonical Work under
+   this license even when discussed in the book.
+
+8. Patent reservation
+   No patent license is granted. Licensor reserves all patent rights in PEI
+   methods.
+
+9. Termination
+   Any breach terminates this license automatically. Sections 6–11 survive.
+
+10. Disclaimer
+    THE CANONICAL WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR
+    PURPOSE, AND NON-INFRINGEMENT. PEI IS A DECISION-SUPPORT PRIOR, NOT A
+    PREDICTION OR AN OFFER OF PROFESSIONAL ADVICE.
+
+11. Limitation of liability
+    TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR IS NOT LIABLE FOR ANY
+    INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY
+    LOSS OF DATA, PROFITS, OR GOODWILL, ARISING FROM USE OF THE CANONICAL WORK.
+
+12. Governing law
+    Colorado law, excluding conflict-of-law rules. Exclusive venue: state or
+    federal courts located in Colorado, United States.
+
+For a commercial, modification, or redistribution license, contact Age Old LLC.

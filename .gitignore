@@ -1,0 +1,30 @@
+# Dependencies and lock leftovers
+node_modules/
+.node_modules.lock
+
+# Build / preview output
+.vercel/
+.output/
+dist/
+.nitro/
+.tanstack/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Sandbox / App Builder (not part of the Canonical Work)
+AGENTS.md
+AGENTS.project.md
+.grok/
+attachments/
+artifacts/
+screenshots/
+startup.sh
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/

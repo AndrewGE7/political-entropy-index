@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "The Thermodynamics of Political Entropy"
+message: "Please cite the book and the Political Entropy Index as Age Old LLC canonical works."
+type: software
+authors:
+  - family-names: Eppler
+    given-names: Andrew
+    affiliation: Age Old LLC
+abstract: >
+  Political Entropy Index (PEI) — six-dimension decision-support prior and
+  digital companion to The Thermodynamics of Political Entropy. Source-available
+  Canonical Work of Age Old Research. No unofficial derivatives.
+keywords:
+  - political entropy
+  - PEI
+  - geoeconomics
+  - thermodynamics
+  - Age Old
+license: "SEE LICENSE IN LICENSE"
+version: "17.0"
+date-released: "2026-09-05"

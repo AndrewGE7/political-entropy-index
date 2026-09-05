@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ageold.example/adapters/schema.json",
+  "title": "PEI Adapter Manifest",
+  "description": "Unofficial research overlay. Does not change PEI weights, phase bands, or the manuscript. Age Old LLC Canonical Work remains unmodified.",
+  "type": "object",
+  "required": ["name", "dimension", "rows"],
+  "additionalProperties": false,
+  "properties": {
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "source": { "type": "string", "maxLength": 200 },
+    "dimension": {
+      "type": "string",
+      "enum": ["inequality", "institutions", "conflict", "energy", "information", "environment"]
+    },
+    "invert": {
+      "type": "boolean",
+      "description": "True when a high source value means low entropy (stability, press freedom, energy independence)."
+    },
+    "scaleMin": { "type": "number" },
+    "scaleMax": { "type": "number" },
+    "updated": { "type": "string" },
+    "note": { "type": "string", "maxLength": 400 },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 400,
+      "items": {
+        "type": "object",
+        "required": ["code", "value"],
+        "properties": {
+          "code": { "type": "string", "description": "ISO 3166-1 alpha-2 or alpha-3" },
+          "value": { "type": "number" }
+        }
+      }
+    }
+  }
+}
